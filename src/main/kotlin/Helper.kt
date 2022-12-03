@@ -1,4 +1,5 @@
 import java.io.BufferedReader
+import java.io.File
 import java.io.FileReader
 import java.io.IOException
 
@@ -12,3 +13,6 @@ fun processInputLineByLine(path: String, handler: (String)->Any) {
         e.printStackTrace()
     }
 }
+
+fun readInput(name: String) = File("src/inputs", "$name.txt")
+    .readLines()
