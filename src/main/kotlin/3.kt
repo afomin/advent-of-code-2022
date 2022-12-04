@@ -1,4 +1,4 @@
-fun getAnswer1(lines: List<String>) =
+private fun getAnswer1(lines: List<String>) =
     lines.map { line ->
         line.substring(0, line.length / 2).toSet().toList() +
                 line.substring(line.length / 2, line.length).toSet().toList()
@@ -17,7 +17,7 @@ fun getAnswer1(lines: List<String>) =
         }
     }
 
-fun getAnswer2(lines: List<String>) =
+private fun getAnswer2(lines: List<String>) =
     lines.asSequence().map {
         it.toSet().toList()
     }.chunked(3).map { it.flatten() }

@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80f81f6-9853-4a01-b078-e3bbb71b040e" name="Changes" comment="day 1">
-      <change afterPath="$PROJECT_DIR$/src/inputs/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputs/2_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputs/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputs/3_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3.kt" afterDir="false" />
+    <list default="true" id="d80f81f6-9853-4a01-b078-e3bbb71b040e" name="Changes" comment="day 2 &amp; 3">
+      <change afterPath="$PROJECT_DIR$/src/inputs/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inputs/4_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/template.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Helper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Helper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin._3Kt">
+  <component name="RunManager" selected="Kotlin._4Kt">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="advent_of_code2022.main" />
@@ -88,7 +86,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_4Kt" />
+      <module name="advent_of_code2022.main" />
+      <shortenClasspath name="NONE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Kotlin._4Kt" />
       <item itemvalue="Kotlin._1Kt" />
       <item itemvalue="Kotlin._2Kt" />
       <item itemvalue="Kotlin._3Kt" />
@@ -96,6 +104,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._4Kt" />
         <item itemvalue="Kotlin._3Kt" />
         <item itemvalue="Kotlin._2Kt" />
         <item itemvalue="Kotlin._1Kt" />
@@ -119,11 +128,30 @@
       <option name="project" value="LOCAL" />
       <updated>1669937002773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day 2 &amp; 3">
+      <created>1670109989472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670109989472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 1" />
+    <MESSAGE value="day 2 &amp; 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 2 &amp; 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/4.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
