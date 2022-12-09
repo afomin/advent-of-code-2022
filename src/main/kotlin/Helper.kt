@@ -16,3 +16,5 @@ fun processInputLineByLine(path: String, handler: (String)->Any) {
 
 fun readInput(name: String) = File("src/inputs", "$name.txt")
     .readLines()
+
+fun readInputOneLine(name: String) = File("src/inputs", "$name.txt").readText()
