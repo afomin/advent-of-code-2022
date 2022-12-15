@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80f81f6-9853-4a01-b078-e3bbb71b040e" name="Changes" comment="day 14">
+    <list default="true" id="d80f81f6-9853-4a01-b078-e3bbb71b040e" name="Changes" comment="day 15">
       <change afterPath="$PROJECT_DIR$/src/inputs/12.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/inputs/12_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputs/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputs/15_test.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/inputs/9.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/inputs/9_test.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/12.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/15.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/9.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Helper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Helper.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +67,18 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._15Kt">
+  <component name="RunManager" selected="Kotlin._12Kt">
     <configuration name="_10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_10Kt" />
+      <module name="advent_of_code2022.main" />
+      <shortenClasspath name="NONE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_12Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_12Kt" />
       <module name="advent_of_code2022.main" />
       <shortenClasspath name="NONE" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -108,15 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_8Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8Kt" />
-      <module name="advent_of_code2022.main" />
-      <shortenClasspath name="NONE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="advent_of_code2022" />
       <shortenClasspath name="NONE" />
@@ -126,19 +122,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotlin._12Kt" />
       <item itemvalue="Kotlin._13Kt" />
       <item itemvalue="Kotlin._14Kt" />
       <item itemvalue="Kotlin._15Kt" />
       <item itemvalue="Kotlin._10Kt" />
-      <item itemvalue="Kotlin._8Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._12Kt" />
         <item itemvalue="Kotlin._15Kt" />
         <item itemvalue="Kotlin._14Kt" />
         <item itemvalue="Kotlin._13Kt" />
         <item itemvalue="Kotlin._10Kt" />
-        <item itemvalue="Kotlin._8Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671050504326</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day 15">
+      <created>1671106636382</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671106636383</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,7 +206,8 @@
     <MESSAGE value="days 5-7" />
     <MESSAGE value="day 13" />
     <MESSAGE value="day 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 14" />
+    <MESSAGE value="day 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -215,5 +219,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="map[newY][newX]" language="kotlin" />
+        <watch expression="map[y][x]" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
